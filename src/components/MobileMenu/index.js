@@ -35,7 +35,7 @@ export default class MobileMenu extends Component {
                         <h2><Link to='/home'>Harry & Nancy</Link></h2>
                     </div>
                     <ul className="responsivemenu">
-                        <li><Link onClick={this.setIsOpen} to='/'>Home<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li>
+                        {/* <li><Link onClick={this.setIsOpen} to='/'>Home<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li> */}
                         {/* <Collapse isOpen={isOpen}>
                             <Card>
                                 <CardBody>
