@@ -13,6 +13,7 @@ const Story = () => {
         <div className="col-l2">
           <div className="section-title text-center">
             <h2>Our Events</h2>
+            <h2>We ask you to join us on this fresh beginning celebrations.</h2>
           </div>
         </div>
         <div className="row">

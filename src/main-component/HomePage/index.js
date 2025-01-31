@@ -15,6 +15,7 @@ import Saveday from '../../components/countdown'
 import BackgroundVideo from '../../components/hero4';
 
 
+
 const Homepage = () => {
     return(
        <div>
@@ -24,7 +25,7 @@ const Homepage = () => {
            <Couple/>
            <Story/>
            <Welcome/>
-           <People/>
+           {/* <People/> */}
            {/* <Location/> */}
            {/* <Gallery/> */}
            {/* <Rsvp/> */}
