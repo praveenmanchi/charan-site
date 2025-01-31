@@ -4,6 +4,7 @@ import strory1 from '../../images/story/1.jpg'
 import strory2 from '../../images/story/2.jpg'
 import strory3 from '../../images/story/3.jpg'
 import strory4 from '../../images/story/4.jpg'
+import LocationMap from '../LocationModal/LocationModal'
 import './style.css'
 
 
@@ -14,7 +15,8 @@ const Story = () =>{
                 <div className="col-l2">
                     <div className="section-title text-center">
                         <h2>Wedding Timeline</h2>
-                        <h3>14th - 15th Febuary 2025</h3>
+                        {/* <h3 style={{ color: "#a3888c" }}>Events On Our Special day</h3> */}
+                        <h3> From 14th - 15th Febuary 2025 Our Special memories will Begin</h3>
                     </div>
                 </div>
                 <div className="row">
@@ -38,7 +40,7 @@ const Story = () =>{
                                         <span className="date">July 20, 2017</span>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
                                         <div className="story-button">
-                                            <Link className="theme-btn" to="/"  title="READ MORE">READ MORE</Link>
+                                        <LocationMap buttonClass={'location-btn'} />
                                         </div>
                                     </div>
                                 </div>

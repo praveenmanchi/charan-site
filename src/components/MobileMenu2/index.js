@@ -34,7 +34,7 @@ export default class MobileMenu2 extends Component {
                         <h2><Link to='/home'>Harry & Nancy</Link></h2>
                     </div>
                     <ul className="responsivemenu">
-                        <li><p onClick={this.setIsOpen}>Home<i className="fa fa-angle-right" aria-hidden="true"></i></p></li>
+                        {/* <li><p onClick={this.setIsOpen}>Home<i className="fa fa-angle-right" aria-hidden="true"></i></p></li>
                         <Collapse isOpen={isOpen}>
                             <Card>
                                 <CardBody>
@@ -44,15 +44,15 @@ export default class MobileMenu2 extends Component {
                                     <li><Link to='/home4'>Home Style 4</Link></li>
                                 </CardBody>
                             </Card>
-                        </Collapse>
+                        </Collapse> */}
                         <li><Link to='/home'>Couple</Link></li>
                         <li><Link to='/home'>Story</Link></li>
                         <li><Link to='/home'>People</Link></li>
                         <li><Link to='/home'>Events</Link></li>
                         <li><Link to='/home'>Gallery</Link></li>
-                        <li><Link to='/home'>Rsvp</Link></li>
+                        {/* <li><Link to='/home'>Rsvp</Link></li>
                         <li><Link to='/blog'>Blog</Link></li>
-                        <li><Link to='/Blog-details'>Blog Details</Link></li>
+                        <li><Link to='/Blog-details'>Blog Details</Link></li> */}
                     </ul>
 
                 </div>
