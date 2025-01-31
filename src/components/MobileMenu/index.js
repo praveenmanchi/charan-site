@@ -32,7 +32,7 @@ export default class MobileMenu extends Component {
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
                     <div className="close" onClick={this.menuHandler}><i className='fa fa-close'></i></div>
                     <div className="logo2">
-                        <h2><Link to='/home'>Harry & Nancy</Link></h2>
+                        <h2><Link to='/home'>Charan & Akhila</Link></h2>
                     </div>
                     <ul className="responsivemenu">
                         {/* <li><Link onClick={this.setIsOpen} to='/'>Home<i className="fa fa-angle-right" aria-hidden="true"></i></Link></li> */}
@@ -46,11 +46,11 @@ export default class MobileMenu extends Component {
                                 </CardBody>
                             </Card>
                         </Collapse> */}
-                        <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
+                        <li><AnchorLink href='#couple'>Groom & Bride</AnchorLink></li>
                         <li><AnchorLink href='#story'>Story</AnchorLink></li>
-                        <li><AnchorLink href='#people'>People</AnchorLink></li>
+                        {/* <li><AnchorLink href='#people'>People</AnchorLink></li> */}
                         <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                        <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
+                        {/* <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li> */}
                         {/* <li><AnchorLink  href='#rsvp'>Rsvp</AnchorLink></li>
                         <li><Link to='/blog'>Blog</Link></li>
                         <li><Link to='/Blog-details'>Blog Details</Link></li> */}
