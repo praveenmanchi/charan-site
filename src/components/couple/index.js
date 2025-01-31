@@ -66,9 +66,14 @@ const Couple = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
-             
+            
+            <div className="section-title text-center">
+            <h2>Together with our families and friends invite you to be a part of our celebration</h2>
+            </div>
         </div>
+        
         
     )
 }

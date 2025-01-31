@@ -22,12 +22,12 @@ const Homepage = () => {
            <BackgroundVideo/>
            <Saveday/>
            <Couple/>
-           <Welcome/>
            <Story/>
+           <Welcome/>
            <People/>
-           <Location/>
-           <Gallery/>
-           <Rsvp/>
+           {/* <Location/> */}
+           {/* <Gallery/> */}
+           {/* <Rsvp/> */}
            {/* <Gift/> */}
        </div>
     )

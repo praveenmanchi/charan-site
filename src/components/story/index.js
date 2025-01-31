@@ -13,7 +13,8 @@ const Story = () =>{
             <div className="container">
                 <div className="col-l2">
                     <div className="section-title text-center">
-                        <h2>Our Story</h2>
+                        <h2>Wedding Timeline</h2>
+                        <h3>14th - 15th Febuary 2025</h3>
                     </div>
                 </div>
                 <div className="row">
