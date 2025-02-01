@@ -15,7 +15,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-lg-3 col-10">
                             <div className="logo">
-                                <h2><Link to='/home'>Harry<span><i className="fa fa-heart" aria-hidden="true"></i></span>Nancy</Link></h2>
+                                <h2><Link to='/home'>Charan<span><i className="fa fa-heart" aria-hidden="true"></i></span>Akhila</Link></h2>
                             </div>
                         </div>
                         <div className="col-lg-9">
@@ -33,8 +33,8 @@ const Header = () => {
                                     <li><AnchorLink href='#story'>Story</AnchorLink></li>
                                     <li><AnchorLink href='#people'>People</AnchorLink></li>
                                     <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                                    <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
-                                    <li><AnchorLink href='#rsvp'>Rsvp</AnchorLink></li>
+                                    {/* <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
+                                    <li><AnchorLink href='#rsvp'>Rsvp</AnchorLink></li> */}
                                     {/* <li><Link to='#'>Blog +</Link>
                                         <ul className="submenu submenu2">
                                             <li><Link to='/blog'>Blog</Link></li>
