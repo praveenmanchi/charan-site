@@ -12,7 +12,7 @@ const Welcome = () =>{
                         <div className="welcome-content">
                             <h2>Please Join virtualy in our celebration</h2>
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters</p>
-                            <div className="btn"><Link to="/home">Watch Live</Link></div>
+                            <div className="btn"><Link to="https://www.youtube.com/live/rDwk4ubbKek?feature=share">Watch Live</Link></div>
                             {/* <LocationMap buttonClass={'location-btn'} /> */}
                         </div>
                     </div>
